@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek V | Web Developer</title>
-    <meta name="description" content="Portfolio of Abhishek V, Web Developer">
-    <meta property="og:title" content="Abhishek V | Web Developer">
-    <meta property="og:image" content="preview.jpg">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A brief overview of my skills and projects.">
+    <meta name="keywords" content="Portfolio, Web Developer, Projects, Skills, Contact">
+    <meta name="author" content="Abhishek V">
+
+    <title>My Portfolio | Abhishek V</title>
+
+    <meta property="og:title" content="My Portfolio | Abhishek V">
+    <meta property="og:description" content="A brief overview of my skills and projects.">
+    <meta property="og:image" content="img/blank_profile.png">
+    <meta property="og:url" content="https://github.com/abhishekv004official">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Abhishek V">
+    <meta name="twitter:description" content="A brief overview of my skills and projects.">
+    <meta name="twitter:image" content="img/blank_profile.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/vo52dKuv10QhVcQhfZ4p6VJfySgDRh6LEFu71cA8_7U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4uaWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1pdW0vcG5nLTI1Ni10aHVtYi9wb3J0Zm9saW8taWNvbi1zdmctZG93bmxvYWQtcG5nLTI3MjY4My5wbmc_/Zj13ZWJwJnc9MTI4">
 </head>
+
 <body>
 
     <!-- HEADER + NAVIGATION -->
@@ -24,16 +40,13 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
-            <!-- DARK MODE -->
+            <!-- Dark Mode -->
             <button class="theme-toggle" aria-label="Toggle Dark Mode" title="Toggle Dark Mode">
                 🌙
             </button>
 
-            <!-- MOBILE MENU -->
-            <button
-                class="menu-toggle"
-                aria-label="Toggle Navigation"
-                aria-expanded="false">
+            <!-- Mobile Menu -->
+            <button class="menu-toggle" aria-label="Toggle Navigation" aria-expanded="false">
                 ☰
             </button>
         </nav>
@@ -45,6 +58,7 @@
         <!-- HERO SECTION -->
         <section class="hero-section">
             <h1>Hi, I'm <span class="highlight">Abhishek V</span> 👋</h1>
+
             <p>I build beautiful, fast, accessible websites.</p>
 
             <div class="hero-buttons">
@@ -53,26 +67,30 @@
             </div>
         </section>
 
-        <!-- ABOUT SECTION -->
+        <!-- ABOUT -->
         <section id="about" class="about-section">
             <h2>About Me</h2>
 
             <div class="about-content">
+
                 <figure class="profile-figure">
-                    <img src="profile.jpg" alt="Abhishek V profile photo" width="300">
+                    <img src="profile.jpg" alt="Abhishek V Profile Photo" width="300">
                     <figcaption>Abhishek V — Web Developer</figcaption>
                 </figure>
 
                 <div class="about-text">
                     <p>
-                        I'm a passionate web developer who enjoys building modern,
-                        responsive and user-friendly websites using HTML, CSS and JavaScript.
+                        I'm a passionate web developer who enjoys building responsive,
+                        user-friendly and modern websites using HTML, CSS and JavaScript.
+                        I'm continuously learning new technologies and improving my
+                        development skills.
                     </p>
                 </div>
+
             </div>
         </section>
 
-        <!-- SKILLS SECTION -->
+        <!-- SKILLS -->
         <section id="skills" class="skills-section">
             <h2>Skills</h2>
 
@@ -84,19 +102,18 @@
             </div>
         </section>
 
-        <!-- PROJECTS SECTION -->
+        <!-- PROJECTS -->
         <section id="projects" class="projects-section">
             <h2>My Projects</h2>
 
             <div class="projects-grid">
+
                 <article class="project-card" data-category="web">
-                    <img src="project1.jpg" alt="Weather App screenshot">
+                    <img src="project1.jpg" alt="Weather App Screenshot">
 
                     <h3>Weather App</h3>
 
-                    <p>
-                        Real-time weather dashboard using OpenWeather API.
-                    </p>
+                    <p>Real-time weather dashboard using OpenWeather API.</p>
 
                     <div class="project-tags">
                         <span class="tag">React</span>
@@ -106,10 +123,11 @@
                     <a href="#" class="btn">Live Demo</a>
                     <a href="#" class="btn">GitHub</a>
                 </article>
+
             </div>
         </section>
 
-        <!-- CONTACT SECTION -->
+        <!-- CONTACT -->
         <section id="contact" class="contact-section">
             <h2>Get In Touch</h2>
 
@@ -117,34 +135,20 @@
 
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required>
+                    <input type="text" id="name" name="name" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required>
+                    <input type="email" id="email" name="email" required>
                 </div>
 
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="5"
-                        required></textarea>
+                    <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary">
-                    Send Message
-                </button>
+                <button type="submit" class="btn btn-primary">Send Message</button>
 
             </form>
         </section>
@@ -153,23 +157,21 @@
 
     <!-- FOOTER -->
     <footer class="site-footer">
+
         <p>
-            &copy; <span class="footer-year"></span>
-            Abhishek V. Built with HTML, CSS & ❤️
+            &copy; <span class="footer-year"></span> Abhishek V.
+            Built with HTML, CSS & ❤️
         </p>
 
         <nav aria-label="Social links">
             <a href="https://github.com/abhishekv004official" target="_blank">GitHub</a>
 
-            <a href="https://www.linkedin.com/in/abhishek-v-81a7b1368"
-               target="_blank">
+            <a href="https://www.linkedin.com/in/abhishek-v-81a7b1368?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
                 LinkedIn
             </a>
         </nav>
-    </footer>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    </footer>
 
 </body>
 </html>
