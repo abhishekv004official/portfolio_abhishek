@@ -14,7 +14,7 @@ html{
     top: 0;
     z-index: 1000;
     background: var(--primary);
-    transition: background 0.3s ease, box-shadow 0.3s ease; /Day 9/
+    transition: background 0.3s ease, box-shadow 0.3s ease; /*Day 9*/
 }
 /* CSS Custom Properties (variables) - DRY Principle */
 :root {

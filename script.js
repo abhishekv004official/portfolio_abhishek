@@ -22,7 +22,7 @@ function getGreeting(){
 const heroTitle = document.querySelector('.hero-section h1');
 console.log(heroTitle);
 if (heroTitle){
-    heroTitle.textContent = ${getGreeting()}, I'm Soumik Datta 👋;
+    heroTitle.textContent = `${getGreeting()}, I'm Abhishek v 👋`;
 }
  
 // ==== MOBILE MENU TOGGLE ===
@@ -60,7 +60,7 @@ window.addEventListener('scroll', () =>{
     })
     navItems.forEach(link =>{
         link.classList.remove('active');
-        if(link.getAttribute('href') === ${current}) {
+        if(link.getAttribute('href') === `${current}`) {
             link.classList.add('active');
         }
     })
